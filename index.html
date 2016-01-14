@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>A S C</title>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
+    <meta content="" name="description" />
+    <meta content="" name="author" />
+
+    <!-- BEGIN BASE CSS -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
+    <link href="assets/plugins/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Not so awesome. FA = GH page scss markdown errors if included as submodule -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="assets/css/style.min.css" rel="stylesheet" />
+    <!-- END BASE CSS -->
+
+    <!-- BEGIN PACE -->
+    <script src="assets/plugins/pace/pace.min.js"></script>
+    <!-- END PACE -->
+
+</head>
+
+<body data-spy="scroll" data-target="" data-offset="51">
+
+    <!-- begin #page-container -->
+    <div id="page-container">
+
+        <!-- begin #home -->
+        <div id="home" class="content has-bg home">
+            <!-- begin content-bg -->
+            <div class="content-bg" id="bg-home">
+            </div>
+            <!-- end content-bg -->
+            <!-- begin container -->
+            <div class="container home-content">
+
+                <div class="profile">
+                    <div class="image" data-animation="true" data-animation-type="flipInX">
+                        <img src="assets/img/pf.jpg" alt="Heather" />
+                    </div>
+                    <div class="info">
+                        <h1 class="name">William Yang</h1>
+                        <h2>Waterloo, Canada</h2>
+                        <p>Full Stack Capable. Will 'Go' Nuts.</p>
+                        <div class="social">
+                            <a href="https://twitter.com/asc_io"><i class="fa fa-twitter fa-lg fa-fw fa-spin-h spin"></i></a>
+                            <a href="https://github.com/Ascendance"><i class="fa fa-github-alt fa-lg fa-fw fa-spin-h spin"></i></a>
+                            <a href="mailto:zen.icon.plus@gmail.com"><i class="fa fa-envelope-o fa-lg fa-fw fa-spin-h spin"></i></a>
+
+                        </div>
+                    </div>
+                </div>
+                <br />
+            </div>
+            <!-- end container -->
+        </div>
+        <!-- end #home -->
+
+    </div>
+    <!-- end #page-container -->
+
+    <!-- BEGIN BASE JS  -->
+    <script src="assets/plugins/jquery/dist/jquery.min.js"></script>
+    <script src="assets/plugins/bootstrap//dist/js/bootstrap.min.js"></script>
+    <script src="assets/plugins/bstretch/jquery.backstretch.min.js"></script>
+    <script src="assets/js/app.js"></script>
+    <!--  END BASE JS  -->
+
+    <script>
+        // init
+        $(document).ready(function() {
+            App.init();
+        });
+    </script>
+
+</body>
+
+</html>
